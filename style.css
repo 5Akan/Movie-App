@@ -5,6 +5,19 @@
 }
 
 body{
+    background-color: #373b69;
     margin: 0;
     font-family: "Poppins",sans-serif;
+}
+
+.movie{
+    border-radius: 3px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    height: 300px;
+
+}
+
+.movie img{
+    max-width: 100%;
 }
