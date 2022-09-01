@@ -11,14 +11,33 @@ body{
 }
 
 .movie{
-    background-color: #989feb;
+    background-color: #3a4299;
     border-radius: 3px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-    width: 400px;
-    height: 300px;
-
+    width: 350px;
+    margin: 2rem;
 }
 
 .movie img{
-    max-width: 100%;
+    /* object-fit: cover; */
+    width: 100%;
+}
+
+.movie-info{
+    padding: 1rem;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+.movie-info h3{
+    margin: 0;
+    
+}
+
+.movie-info span{
+    background-color: #373b69;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
 }
