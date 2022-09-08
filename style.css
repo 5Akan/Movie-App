@@ -18,8 +18,14 @@ main{
 header{
     background-color: #3a4299;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     padding: 1rem;
+}
+
+header h2{
+    margin: 0px;
+    color: #fff;
+   
 }
 
 .search{
@@ -93,6 +99,8 @@ header{
     background-color: #3a4299;
     color: #fff;
     position: absolute;
+    max-height: 100%;
+    overflow: auto;
     top: 0;
     left: 0;
     bottom: 0;
